@@ -1,0 +1,68 @@
+/*.choices{
+    height: 200px;
+    width: 40px;
+    font-size: 200px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(168, 232, 189);
+} 
+h1 {
+    background-color: rgb(5, 85, 36);
+    color: beige;
+    height: 5rem;
+    line-height: 5rem;
+ }
+.choice {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /*he img la perfect fit karanya sathi ahe
+                         apale circle ahe tar hight width same dili 
+                         tari te perfect fit zale*/
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: black;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+}
+#user-score , #comp-score {
+    font-size: 4rem;
+}
+.msg-container {
+    margin-top: 5rem;
+}
+#msg {
+    font-size: 2rem;
+    background-color: rgb(96, 45, 80);
+    color: rgb(243, 164, 237);
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
